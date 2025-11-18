@@ -3,5 +3,4 @@ services:
     name: ammar-local-db
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
     startCommand: "python local_db.py"
